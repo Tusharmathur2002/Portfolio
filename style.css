@@ -9,6 +9,7 @@ body {
     color: white;
 }
 
+/* navbar */
 nav {
     display: flex;
     justify-content: space-around;
@@ -39,8 +40,8 @@ nav ul li {
 }
 
 .right ul li a:hover {
-    font-size: 1.09rem;
     color: black;
+    font-size: 1.1rem;
 }
 
 .dropbtn {
@@ -79,7 +80,7 @@ nav ul li {
     display: block;
 }
 
-
+/* firstpage */
 
 .firstsection {
     display: flex;
@@ -98,10 +99,12 @@ nav ul li {
 }
 
 .leftsection h4 {
+    color: beige;
     font-weight: normal;
     font-family: math;
     font-size: 45px;
 }
+
 
 .leftsection span {
     font-family: math;
@@ -117,9 +120,7 @@ nav ul li {
     width: 150%;
 }
 
-.rightsection {
-    background-color: #5e5e6c;
-}
+
 
 .rightsection img {
     width: 85%;
@@ -160,6 +161,8 @@ main hr {
     background-color: wheat;
     margin-top: 25px;
 }
+
+/* Experience page */
 
 .secondsection {
     display: flex;
@@ -220,6 +223,8 @@ main hr {
     margin-left: 249px;
     height: 319px;
 }
+
+/* footer */
 
 .footer {
     display: flex;
